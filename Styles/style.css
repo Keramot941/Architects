@@ -400,11 +400,24 @@ footer p{
         width: 90%;
         height: auto;
     }
+    .lovely-features> button{
+        height: 100px;
+        width: 140px;
+        font-size: 16px;
+        position: relative;
+        transform: translate(145px, -150px);
+        padding: 0px;
+    }
+    .jf{
+    }
     /* Facts */
     .fact-area{
         grid-template-columns: repeat(1 , 1fr);
         row-gap: 10px;
         /* margin: auto; */
+    }
+    .fact-text p {
+        width: 300px;
     }
     /* Sponsors */
     .sponsors-list{
