@@ -283,6 +283,8 @@
     height: 50px;
     width: 200px;
     background: url("/images/sponsors/amazon.png") no-repeat;
+    background-color: #727272;
+    mix-blend-mode: luminosity;
   
 }
 .list-item-3{
@@ -310,7 +312,72 @@ footer{
     text-align: center;
     margin: 30px 120px;
     margin-bottom: 80px;
+    width: 80vw;
+    height: 70px;
+    border-radius: 8px;
 }
 footer p{
     padding: 20px;
+}
+
+.fd{
+    display: none;
+}
+
+/* Mobile Device Responsive */
+
+@media only screen and (max-width: 576px) {
+
+    .container{
+        width: 100vw;
+    }
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 100px;
+        margin: 0;
+        padding: 10px;
+    }
+    .logo{
+        margin: 0px 0px;
+        width: 160px;
+        display: inline;
+    }
+    .logo-title{
+        font-size: 24px;
+    }
+    .nav-item> ul {
+        justify-content: end;
+    }
+    .nav-item ul li{
+      width: 120px;
+      font-size: 16px;
+    }
+    .article h3{
+        width: 300px;
+        font-size: 30px;
+    }
+    .article{
+        width: 80%;
+    }
+    /* Brand Features */
+    .brand-features{
+        width: 100%;
+        margin: 20px auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .team-members{
+        grid-template-columns: repeat(1 ,1fr);
+        margin: 0;
+    }
+
+    /* footer Section */
+    footer{
+        width: 400px;
+        margin: 20px 80px;
+    }
+    footer p{
+        padding: 20px;
+    }
 }
