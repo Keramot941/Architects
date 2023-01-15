@@ -245,7 +245,7 @@
 .fact:hover{
     border: 5px solid var(--button-color);
     color: #000;
-    transform: rotate(10deg);
+    transform: rotate(360deg);
     width: 180px;
     height: 150px;
     background-color: #000;
