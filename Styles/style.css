@@ -354,6 +354,8 @@ footer p{
       font-size: 16px;
     }
     .article h3{
+        margin: 20px -42px;
+        text-align: center;
         width: 300px;
         font-size: 30px;
     }
@@ -363,15 +365,51 @@ footer p{
     /* Brand Features */
     .brand-features{
         width: 100%;
-        margin: 20px auto;
+        margin: auto;
         flex-direction: column;
         justify-content: flex-start;
     }
     .team-members{
         grid-template-columns: repeat(1 ,1fr);
-        margin: 0;
+        width: 400px;
+        margin: 20px auto;
+        margin-left: 0;
     }
-
+    .team-members> img{
+        margin: 20px auto;
+    }
+    .features-article{
+        margin: 20px auto;
+    }
+    .features-text{
+        width: 320px;
+    }
+    /* Lovely Features */
+    .lovely-features{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .architect-area> img{
+        margin: 20px auto;
+        width: 90%;
+        height: auto;
+    }
+    .features-details{
+        margin: 20px auto;
+    }
+    .details{
+        width: 90%;
+        height: auto;
+    }
+    /* Facts */
+    .fact-area{
+        grid-template-columns: repeat(1 , 1fr);
+        row-gap: 10px;
+        /* margin: auto; */
+    }
+    /* Sponsors */
+    .sponsors-list{
+        grid-template-columns: repeat(2,1fr);
+    }
     /* footer Section */
     footer{
         width: 400px;
